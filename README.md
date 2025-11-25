@@ -10,6 +10,7 @@ PC installed with SCILAB.
 ## PROGRAM : 
 
 //  SPEECH RECOGNITION USING SCILAB
+```
 clc;
 close;
 n = 0:%pi/50:2*%pi;
@@ -43,6 +44,7 @@ title('original signal');
 subplot(2,1,2);
 plot2d3(upsampling_x);
 title('Upsampled Signal by a factor of L');
+```
 
 ## OUTPUT:
 <img width="1918" height="1193" alt="image" src="https://github.com/user-attachments/assets/497a1043-284e-4e96-bb39-9dce91d7fca0" />
